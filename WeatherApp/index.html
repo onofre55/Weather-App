@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!-- Google Font Inter -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<title>Weather App</title>
+
+<link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+    <h2>Weather App &#x2600;</h2>
+
+    <div class="info-container">
+
+        <div class="input-field">
+
+        <input type="text" class="input" placeholder="Search a city!">
+        <button class="search-button">Search</button>
+
+        </div>
+
+        <!--Error-->
+        <div class="not-found">
+            <p>City Not Found. Please Try again.</p>
+        </div>
+
+        <!--Weather Information and Icon-->
+
+        <div class="weather-container">
+
+        <div class="weather-icon">
+
+            <img src="" alt="Weather Icon">
+
+        </div>
+
+            <div class="weather-temp">
+
+            <div class="temp"></div>
+
+            </div>
+
+            <div class="weather-description">
+
+                <div class="desc"></div>
+    
+            </div>
+
+            <div class="weather-city">
+
+                <div class="city"></div>
+    
+            </div>
+
+        <!--End of Weather Container-->
+        </div>
+
+    </div>
+
+    </div>
+
+    <!-- JS Script -->
+    <script src="weather.js"></script>
+
+</body>
+
+</html>
